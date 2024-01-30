@@ -1,0 +1,15 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="sign">
+            <file>tests/BasicTest.php</file>
+            <!--<file>tests/TestAccessToken.php</file>-->
+            <!--<file>tests/TestTransactionInfo.php</file>-->
+            <!--<file>tests/TestContractSeqNo.php</file>-->
+            <file>tests/TestUploadContract.php</file>
+            <!--<file>tests/TestReturnContract.php</file>-->
+            <!--<file>tests/TestConfirmReturnContract.php</file>-->
+            <!--<file>tests/TestConfirmResignContract.php</file>-->
+            <!--<file>tests/TestChangeTenant.php</file>-->
+        </testsuite>
+    </testsuites>
+</phpunit>
